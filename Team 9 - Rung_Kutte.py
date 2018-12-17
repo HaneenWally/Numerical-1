@@ -1,3 +1,8 @@
+#input number (6)
+# string function       string equation       x0 y0 x and h
+# output number (2)
+# ya (y appromiate )    error (raltive true error)
+
 from math import *
 
 
@@ -58,11 +63,6 @@ h = float (input("Enter h: "))
 r = Runge_kutte_ODE(x0,y0,x,h,func,func2)
 print("y = ",r.ya)
 print("relative true error = ",r.error," % ")
-
-#input number (6)
-# string function       string equation       x0 y0 x and h
-# output number (2)
-# ya (y appromiate )    error (raltive true error)
 
 #
 # 2 testcases:
